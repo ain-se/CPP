@@ -25,5 +25,7 @@ vector<T> v5={a,b,c,…}
 vector<T> v;
 v.push_back(i);
 把i里面的内容从屁股后面怼进去
+v.pop_back();
+移除v的最后一个元素,但不会减少容量
 
 vector只能用while输入
